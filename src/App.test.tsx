@@ -7,5 +7,6 @@ describe("Checks RTL works fine", () => {
     render(<App />);
     screen.debug();
     screen.getByText("Learning RTL");
+    screen.getByText(/RTL/);
   });
 })
