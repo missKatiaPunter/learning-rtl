@@ -11,6 +11,7 @@ describe("Checks RTL works fine", () => {
   });
 
   test("Should select the input element by its role", () => {
-    screen.getByRole('whatever');
+    render(<App />);
+    screen.getByRole('textbox');
   })
 })
