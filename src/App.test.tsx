@@ -9,4 +9,8 @@ describe("Checks RTL works fine", () => {
     screen.getByText("Learning RTL");
     screen.getByText(/RTL/);
   });
+
+  test("Should select the input element by its role", () => {
+    screen.getByRole('whatever');
+  })
 })
