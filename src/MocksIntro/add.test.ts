@@ -1,4 +1,4 @@
-import { sum } from './add';
+import { sum } from './sum';
 
 //Actual unit test - testing an independent single function:
 
