@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { FunctionComponent, useState } from 'react'
 
-export const Counter = () => {
+export const Counter: FunctionComponent = () => {
     const [counter, setCounter] = useState(0);
     return (
         <div>

@@ -2,6 +2,8 @@ import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import { Counter } from './Counter';
 
+afterEach(cleanup);
+
 test("the Counter component using a wrapper variable", () => {
     const wrapper = render(<Counter />);
     wrapper.debug();
